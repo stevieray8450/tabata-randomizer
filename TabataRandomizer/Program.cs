@@ -12,7 +12,6 @@ namespace TabataRandomizer
             if (File.Exists("tabata.txt"))
             {
                 var text = "";
-
                 using(var sr = new StreamReader("tabata.txt"))
                 {
                     text = await sr.ReadToEndAsync();
