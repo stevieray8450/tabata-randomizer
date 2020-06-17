@@ -100,5 +100,4 @@ namespace TabataRandomizer
             return Name;
         }
     }
-
 }
