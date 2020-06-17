@@ -53,6 +53,7 @@ namespace TabataRandomizer
                 for (int i = 0; i < 4; i++)
                 {
                     Console.WriteLine($"ROUND {i + 1}");
+                    
                     Console.WriteLine("******************************");
                     var rand = new Random();
 
